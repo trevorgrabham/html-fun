@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Let's hope this shit works</title>
+  </head>
+  <body>
+    <div id="headers">
+      <h1>Header 1</h1>
+      <h2>Header 2</h2>
+      <h3>Header 3</h3>
+      <h4>Header 4</h4>
+      <h5>Header 5</h5>
+      <h6>Header 6</h6>
+    </div>
+
+    <p>Paragraph</p>
+    <a href="https://www.google.com/search?q=beautiful+shirtless+men&rlz=1C1CHBF_enCA760CA760&sxsrf=ALeKk01JwG5UaKrjH8tCaQzEBPjJrLqmhA:1601414047462&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjIo7-bpI_sAhX1N30KHYyiAqMQ_AUoAXoECAwQAw&biw=1920&bih=888">
+    definitely not how I spend my free time...</a>
+
+
+    <div id="text-styling">
+      <p><b>bold text</b> - <code>b</code> or <code>strong</code> tags<br>
+        <em>italics</em> - <code>em</code> or <code>i</code> tags <br>
+        <mark>highlighted text</mark> - <code>mark</code> tags <br>
+        <q>quoted text</q> - <code>q</code> tags <br>
+        <s>strike through text</s> - <code>s</code> tags <br>
+        text<sub>subscript</sub> - <code>sub</code> tags <br>
+        text<sup>superscript</sup> - <code>sup</code> tags <br>
+      </p>
+    </div>
+
+    <div id="media">
+      <audio src="Gotcha bitch Sound Effect Got you.mp3" controls>
+        Someone fucked up
+      </audio>
+      <br>
+      <video width="640" height="360" controls>
+        <source src="SampleVideo_1280x720_20mb.mp4" type="video/mp4">
+          I made an oopsies
+      </video>
+      <br>
+      <img src="./sample.jpeg">
+    </div>
+
+    <div id="tables">
+      <ul>
+        <li><code>ul</code> for unordered lists</li>
+        <li><code>li</code> for list items in both unordered and ordered lists</li>
+      </ul>
+
+      <ol>
+        <li><code>ol</code> for ordered lists</li>
+        <li><code>li</code> for list items, just as with unordered lists</li>
+      </ol>
+
+      <table>
+        <tr>
+          <th>code</th>
+          <th>what it does</th>
+        </tr>
+        <tr>
+          <td><code>tr</code></td>
+          <td>creates a table row</td>
+        </tr>
+        <tr>
+          <td><code>td</code></td>
+          <td>similar to <code>li</code> in that it is the tags that the data goes within</td>
+        </tr>
+        <tr>
+          <td><code>th</code></td>
+          <td>similar to <code>td</code> except that it is meant for the column names</td>
+        </tr>
+        <tr>
+          <td><code>table</code></td>
+          <td>similar to <code>ul</code> or <code>ol</code> in that it encases all of the <code>tr</code> tags</td>
+        </tr>
+      </table>
+    </div>
+
+    <div id="forms">
+      <form id="form" action="index.html" method="post">
+        <label for="input1"><code>label</code> - this is the prompt for the following input field</label>
+        <br>
+        <input type="text" value="this is a text input, type='text'">
+        <br>
+        <label>type=<q><code>radio</code></q> for a radio button</label>
+        <input type="radio">
+        <br>
+        <label>type=<q><code>checkbox</code></q> for a checkbox</label>
+        <input type="checkbox">
+        <br>
+
+        <button type="button" name="button" onclick="document.getElementById('response').innerHTML = 'button clicked';">Click me bitch</button>
+        <br>
+        <p id="response"></p>
+      </form>
+    </div>
+
+  </body>
+</html>
